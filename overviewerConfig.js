@@ -1,71 +1,71 @@
 var overviewerConfig = {
+    "worlds": [
+        "world"
+    ],
+    "map": {
+        "controls": {
+            "zoom": true,
+            "overlays": true,
+            "coordsBox": true,
+            "pan": true,
+            "spawn": true,
+            "compass": true,
+            "mapType": true
+        },
+        "debug": true,
+        "north_direction": "lower-left",
+        "cacheTag": "1584573413"
+    },
     "CONST": {
-        "LOWERRIGHT": 2,
-        "tileSize": 384,
-        "LOWERLEFT": 3,
-        "UPPERLEFT": 0,
         "mapDivId": "mcmap",
-        "UPPERRIGHT": 1,
+        "LOWERLEFT": 3,
+        "tileSize": 384,
         "image": {
             "spawnMarker2x": "icons/marker_home_2x.png",
-            "bedMarker": "bed.png",
-            "defaultMarker": "signpost.png",
-            "spawnMarker": "icons/marker_home.png",
             "compass": {
                 "0": "compass_upper-left.png",
                 "1": "compass_upper-right.png",
                 "2": "compass_lower-right.png",
                 "3": "compass_lower-left.png"
             },
+            "queryMarker2x": "icons/marker_location_2x.png",
+            "defaultMarker": "signpost.png",
             "queryMarker": "icons/marker_location.png",
             "signMarker": "signpost_icon.png",
-            "queryMarker2x": "icons/marker_location_2x.png"
-        }
+            "bedMarker": "bed.png",
+            "spawnMarker": "icons/marker_home.png"
+        },
+        "UPPERLEFT": 0,
+        "LOWERRIGHT": 2,
+        "UPPERRIGHT": 1
     },
-    "worlds": [
-        "world"
-    ],
     "tilesets": [
         {
-            "imgextension": "png",
-            "north_direction": 0,
-            "path": "world-lighting",
             "minZoom": 0,
-            "isOverlay": false,
-            "world": "world",
-            "poititle": "Markers",
-            "bgcolor": "#1a1a1a",
-            "zoomLevels": 8,
-            "showlocationmarker": true,
-            "last_rendertime": 1584428763,
-            "spawn": [
-                10,
-                80,
-                13
-            ],
-            "base": "",
+            "maxZoom": 8,
             "center": [
                 10,
                 80,
                 13
             ],
+            "path": "world-lighting",
+            "bgcolor": "#1a1a1a",
+            "poititle": "Markers",
+            "last_rendertime": 1584571404,
+            "zoomLevels": 8,
+            "spawn": [
+                10,
+                80,
+                13
+            ],
+            "world": "world",
             "name": "Overviewer Render (lighting)",
-            "maxZoom": 8,
-            "defaultZoom": 1
+            "showlocationmarker": true,
+            "isOverlay": false,
+            "north_direction": 0,
+            "imgextension": "png",
+            "defaultZoom": 1,
+            "base": ""
         }
-    ],
-    "map": {
-        "north_direction": "lower-left",
-        "debug": true,
-        "cacheTag": "1584432686",
-        "controls": {
-            "coordsBox": true,
-            "zoom": true,
-            "compass": true,
-            "pan": true,
-            "mapType": true,
-            "overlays": true,
-            "spawn": true
-        }
-    }
+    ]
 };
