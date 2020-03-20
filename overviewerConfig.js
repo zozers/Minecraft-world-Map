@@ -4,68 +4,68 @@ var overviewerConfig = {
     ],
     "map": {
         "controls": {
-            "zoom": true,
-            "overlays": true,
             "coordsBox": true,
             "pan": true,
             "spawn": true,
+            "overlays": true,
+            "zoom": true,
             "compass": true,
             "mapType": true
         },
         "debug": true,
-        "north_direction": "lower-left",
-        "cacheTag": "1584573413"
+        "cacheTag": "1584731999",
+        "north_direction": "lower-left"
     },
+    "tilesets": [
+        {
+            "isOverlay": false,
+            "name": "Overviewer Render (lighting)",
+            "zoomLevels": 8,
+            "base": "",
+            "minZoom": 0,
+            "north_direction": 0,
+            "maxZoom": 8,
+            "poititle": "Markers",
+            "last_rendertime": 1584730242,
+            "imgextension": "png",
+            "world": "world",
+            "path": "world-lighting",
+            "spawn": [
+                10,
+                80,
+                13
+            ],
+            "bgcolor": "#1a1a1a",
+            "defaultZoom": 1,
+            "showlocationmarker": true,
+            "center": [
+                10,
+                80,
+                13
+            ]
+        }
+    ],
     "CONST": {
-        "mapDivId": "mcmap",
-        "LOWERLEFT": 3,
+        "LOWERRIGHT": 2,
         "tileSize": 384,
         "image": {
-            "spawnMarker2x": "icons/marker_home_2x.png",
+            "signMarker": "signpost_icon.png",
+            "queryMarker2x": "icons/marker_location_2x.png",
+            "bedMarker": "bed.png",
+            "spawnMarker": "icons/marker_home.png",
             "compass": {
                 "0": "compass_upper-left.png",
                 "1": "compass_upper-right.png",
                 "2": "compass_lower-right.png",
                 "3": "compass_lower-left.png"
             },
-            "queryMarker2x": "icons/marker_location_2x.png",
+            "spawnMarker2x": "icons/marker_home_2x.png",
             "defaultMarker": "signpost.png",
-            "queryMarker": "icons/marker_location.png",
-            "signMarker": "signpost_icon.png",
-            "bedMarker": "bed.png",
-            "spawnMarker": "icons/marker_home.png"
+            "queryMarker": "icons/marker_location.png"
         },
+        "mapDivId": "mcmap",
+        "UPPERRIGHT": 1,
         "UPPERLEFT": 0,
-        "LOWERRIGHT": 2,
-        "UPPERRIGHT": 1
-    },
-    "tilesets": [
-        {
-            "minZoom": 0,
-            "maxZoom": 8,
-            "center": [
-                10,
-                80,
-                13
-            ],
-            "path": "world-lighting",
-            "bgcolor": "#1a1a1a",
-            "poititle": "Markers",
-            "last_rendertime": 1584571404,
-            "zoomLevels": 8,
-            "spawn": [
-                10,
-                80,
-                13
-            ],
-            "world": "world",
-            "name": "Overviewer Render (lighting)",
-            "showlocationmarker": true,
-            "isOverlay": false,
-            "north_direction": 0,
-            "imgextension": "png",
-            "defaultZoom": 1,
-            "base": ""
-        }
-    ]
+        "LOWERLEFT": 3
+    }
 };
