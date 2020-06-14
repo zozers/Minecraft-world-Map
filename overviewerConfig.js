@@ -1,71 +1,119 @@
 var overviewerConfig = {
+    "CONST": {
+        "tileSize": 384,
+        "image": {
+            "defaultMarker": "signpost.png",
+            "signMarker": "signpost_icon.png",
+            "bedMarker": "bed.png",
+            "spawnMarker": "icons/marker_home.png",
+            "spawnMarker2x": "icons/marker_home_2x.png",
+            "queryMarker": "icons/marker_location.png",
+            "queryMarker2x": "icons/marker_location_2x.png",
+            "compass": {
+                "0": "compass_upper-left.png",
+                "1": "compass_upper-right.png",
+                "3": "compass_lower-left.png",
+                "2": "compass_lower-right.png"
+            }
+        },
+        "mapDivId": "mcmap",
+        "UPPERLEFT": 0,
+        "UPPERRIGHT": 1,
+        "LOWERLEFT": 3,
+        "LOWERRIGHT": 2
+    },
     "worlds": [
-        "world"
+        "Zoe_Server_Overworld - overworld",
+        "Zoe_Server_Nether - nether",
+        "Zoe_Server_End - end"
     ],
     "map": {
+        "debug": true,
+        "cacheTag": "1594538958",
+        "north_direction": "lower-left",
         "controls": {
+            "pan": true,
+            "zoom": true,
             "spawn": true,
             "compass": true,
+            "mapType": true,
             "overlays": true,
-            "pan": true,
-            "coordsBox": true,
-            "zoom": true,
-            "mapType": true
-        },
-        "cacheTag": "1590482818",
-        "north_direction": "lower-left",
-        "debug": true
+            "coordsBox": true
+        }
     },
     "tilesets": [
         {
-            "spawn": [
-                10,
-                80,
-                13
-            ],
-            "bgcolor": "#1a1a1a",
-            "world": "world",
-            "imgextension": "png",
+            "name": "Zoe's Server",
+            "zoomLevels": 8,
+            "defaultZoom": 1,
+            "maxZoom": 8,
+            "path": "overworld",
             "base": "",
-            "showlocationmarker": true,
-            "north_direction": 0,
+            "bgcolor": "#1a1a1a",
+            "world": "Zoe_Server_Overworld - overworld",
+            "last_rendertime": 1594505796,
+            "imgextension": "png",
+            "isOverlay": false,
             "poititle": "Markers",
+            "showlocationmarker": true,
             "center": [
                 10,
                 80,
                 13
             ],
-            "last_rendertime": 1590479089,
+            "minZoom": 0,
+            "spawn": [
+                10,
+                80,
+                13
+            ],
+            "north_direction": 0
+        },
+        {
+            "name": "Zoe's Server",
             "zoomLevels": 8,
             "defaultZoom": 1,
-            "path": "world-lighting",
-            "minZoom": 0,
+            "maxZoom": 8,
+            "path": "nether",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Zoe_Server_Nether - nether",
+            "last_rendertime": 1594505796,
+            "imgextension": "png",
             "isOverlay": false,
-            "name": "Overviewer Render (lighting)",
-            "maxZoom": 8
-        }
-    ],
-    "CONST": {
-        "UPPERLEFT": 0,
-        "LOWERLEFT": 3,
-        "tileSize": 384,
-        "image": {
-            "spawnMarker": "icons/marker_home.png",
-            "compass": {
-                "0": "compass_upper-left.png",
-                "1": "compass_upper-right.png",
-                "2": "compass_lower-right.png",
-                "3": "compass_lower-left.png"
-            },
-            "queryMarker": "icons/marker_location.png",
-            "signMarker": "signpost_icon.png",
-            "defaultMarker": "signpost.png",
-            "bedMarker": "bed.png",
-            "queryMarker2x": "icons/marker_location_2x.png",
-            "spawnMarker2x": "icons/marker_home_2x.png"
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                64,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
         },
-        "mapDivId": "mcmap",
-        "UPPERRIGHT": 1,
-        "LOWERRIGHT": 2
-    }
+        {
+            "name": "Zoe's Server",
+            "zoomLevels": 8,
+            "defaultZoom": 1,
+            "maxZoom": 8,
+            "path": "end",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "Zoe_Server_End - end",
+            "last_rendertime": 1594505796,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                64,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
+        }
+    ]
 };
