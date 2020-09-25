@@ -28,8 +28,8 @@ var overviewerConfig = {
         "Zoe_Server_End - end"
     ],
     "map": {
-        "debug": true,
-        "cacheTag": "1599588701",
+        "debug": false,
+        "cacheTag": "1601012639",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -44,14 +44,14 @@ var overviewerConfig = {
     "tilesets": [
         {
             "name": "Zoe's Server",
-            "zoomLevels": 9,
+            "zoomLevels": 10,
             "defaultZoom": 1,
-            "maxZoom": 9,
+            "maxZoom": 10,
             "path": "overworld",
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Zoe_Server_Overworld - overworld",
-            "last_rendertime": 1599587362,
+            "last_rendertime": 1601006438,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -78,7 +78,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Zoe_Server_Nether - nether",
-            "last_rendertime": 1599587362,
+            "last_rendertime": 1601006355,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -101,7 +101,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Zoe_Server_End - end",
-            "last_rendertime": 1599587362,
+            "last_rendertime": 1601006355,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
