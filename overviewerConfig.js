@@ -23,13 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "Zoe_Server_Overworld - overworld",
-        "Zoe_Server_Nether - nether",
-        "Zoe_Server_End - end"
+        "Zoe_Server_Overworld - overworld"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1619001607",
+        "cacheTag": "1623235932",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -51,7 +49,7 @@ var overviewerConfig = {
             "base": "",
             "bgcolor": "#1a1a1a",
             "world": "Zoe_Server_Overworld - overworld",
-            "last_rendertime": 1619001302,
+            "last_rendertime": 1623223058,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -67,52 +65,6 @@ var overviewerConfig = {
                 80,
                 13
             ],
-            "north_direction": 0
-        },
-        {
-            "name": "Zoe's Server",
-            "zoomLevels": 8,
-            "defaultZoom": 1,
-            "maxZoom": 8,
-            "path": "nether",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Zoe_Server_Nether - nether",
-            "last_rendertime": 1619001302,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                0,
-                64,
-                0
-            ],
-            "minZoom": 0,
-            "spawn": false,
-            "north_direction": 0
-        },
-        {
-            "name": "Zoe's Server",
-            "zoomLevels": 8,
-            "defaultZoom": 1,
-            "maxZoom": 8,
-            "path": "end",
-            "base": "",
-            "bgcolor": "#1a1a1a",
-            "world": "Zoe_Server_End - end",
-            "last_rendertime": 1619001302,
-            "imgextension": "png",
-            "isOverlay": false,
-            "poititle": "Markers",
-            "showlocationmarker": true,
-            "center": [
-                0,
-                64,
-                0
-            ],
-            "minZoom": 0,
-            "spawn": false,
             "north_direction": 0
         }
     ]
